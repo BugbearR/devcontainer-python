@@ -1,0 +1,19 @@
+{
+  "name": "devcontainer-python",
+  "dockerComposeFile": ["docker-compose.yml"],
+  "service": "workspace",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "EditorConfig.EditorConfig"
+      ]
+    }
+  },
+  "features": {
+    "docker-from-docker": {
+      "version": "latest",
+      "dockerDashComposeVersion": "v2"
+    }
+  }
+}
